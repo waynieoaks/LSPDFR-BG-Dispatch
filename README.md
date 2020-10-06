@@ -21,4 +21,4 @@ BGDispatch provides similar functionality to some other great audio mods, such a
 - Initial code shell
 
 ## Credit
-Audio provided by Broadcastify and governed by the Creative Commons License v3.0
+Audio provided by <a href="https://www.broadcastify.com" target="_new">Broadcastify</a> and governed by the <a href="https://github.com/waynieoaks/LSPDFR-BGDispatch/blob/main/LICENSE" target="_new">Creative Commons License v3.0</a>
