@@ -1,10 +1,10 @@
 # BGDispatch for LSPDFR
-BGDispatch provides similar functionality to some other mods, such as "More Radio Chatter" or "X-Scanner" with the exception that this has be written from the ground up to work alongside LSPDFR, GarmmarPolice and Immersive Dispatch for a more round audio experience...
+BGDispatch provides similar functionality to some other great audio mods, such as "More Radio Chatter" or "X-Scanner". It has been written from the ground up to work alongside LSPDFR, GrammarPolice and Immersive Dispatch for a more joined up, emmersive audio experience...
 
-Current features: 
+## Current features: 
 - None - I have not written it yet!
 
-Planned features: 
+## Planned features: 
 - Replace the police radio background chatter to make it seem more realistic
 - Attempts to keep variety by not playing the same audio file if recently played
 - Uses real audio files from real police channels carefully selected to be generic and remain lore freindly without revealing any personal data from real calls
@@ -13,8 +13,12 @@ Planned features:
 - Recognise when talking to dispactch (GrammarPolice) and hold background radio audio
 - Recognise when "Signal-100" initiated (Immersive Dispatch) and hold background radio audio
 
-Installation: 
+## Installation: 
 - Information to follow
 
-Version history:
-- 0.0.1.0 (Pre release)
+## Version history:
+0.0.1.0 (Pre release)
+- Initial code shell
+
+## Credit
+Audio provided by Broadcastify and governed by the Creative Commons License v3.0
