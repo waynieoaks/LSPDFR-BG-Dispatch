@@ -2,10 +2,10 @@
 BGDispatch provides similar functionality to some other great audio mods, such as "More Radio Chatter" or "X-Scanner". It has been written from the ground up to work alongside LSPDFR, GrammarPolice and Immersive Dispatch for a more joined up, emmersive audio experience...
 
 ## Dependencies:
-Rage Plugin Hook 1.81+ (Required)
-LSPDFR 0.4.8+ (Required)
-GrammarPolice by opus49 (Reccomended)
-Immersive Dispatch by OfficerPope (Reccomended)
+- Rage Plugin Hook 1.81+ (Required)
+- LSPDFR 0.4.8+ (Required)
+- GrammarPolice by opus49 (Reccomended)
+- Immersive Dispatch by OfficerPope (Reccomended)
 
 ## Installation: 
 - Information to follow
