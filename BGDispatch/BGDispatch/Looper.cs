@@ -12,11 +12,12 @@ namespace BGDispatch
 {
     public static class Looper
     {
-        public static void DoLoop()
+        public static void DoChecks()
         {
             Int32 time = (EntryPoint.WaitTime * 1000);
             Random rndTime = new Random();
             
+            // Start the "Do I play" delegate
             GameFiber.StartNew(delegate
             {
                 while (true)
@@ -63,7 +64,25 @@ namespace BGDispatch
                     time = (EntryPoint.WaitTime * 1000);
                 }
             });
+
+            // Start the "Do I pause" delegate
+
+                GameFiber.StartNew(delegate
+                {
+                    while (true)
+                    {
+                        GameFiber.Yield();
+
+                        // Is a Callout being initiated? 
+
+                        // Has GrammarPolice talk key fired?
+
+                        //If key pressed, then here
+                    }
+                });
         }
+
+    }
 
 
         

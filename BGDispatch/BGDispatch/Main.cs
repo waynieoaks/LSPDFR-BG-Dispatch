@@ -32,11 +32,11 @@ namespace BGDispatch
         {
             Game.LogTrivial("[BGDispatch]: Starting EntryPoint.");
 
-                // Disable the native police scanner on loadup
-                NativeFunction.Natives.SetAudioFlag("PoliceScannerDisabled", true);
+            // Disable the native police scanner on loadup
+            NativeFunction.Natives.SetAudioFlag("PoliceScannerDisabled", true);
 
             Game.LogTrivial("[BGDispatch]: Loading settings...");
-                LoadValuesFromIniFile();
+            LoadValuesFromIniFile();
 
             // Sanity check - Does directory exist? 
             if (!Directory.Exists(Audiopath))
@@ -63,11 +63,11 @@ namespace BGDispatch
                 return;
             }
 
-           //  Game.LogTrivial("[BGDispatch]: " + WavCount.ToString() + " audio files found");
+            //  Game.LogTrivial("[BGDispatch]: " + WavCount.ToString() + " audio files found");
             foreach (var wav in WavFiles)
             {
-               // string WavName = wav.Substring(Audiopath.Length + 1);
-               // Game.LogTrivial(WavName);
+                // string WavName = wav.Substring(Audiopath.Length + 1);
+                // Game.LogTrivial(WavName);
 
             }
 
@@ -80,20 +80,9 @@ namespace BGDispatch
 
             EntryPoint.WaitTime = 120; // Wait 2 minutes before first audio file plays
 
-            Looper.DoLoop();
-
-            //    //GrammarPolice Keybinding Fiber
-            //    GameFiber.StartNew(delegate
-            //    {
-            //        while (true)
-            //        {
-            //            GameFiber.Yield();
-
-            //            //If key pressed, then here
-            //        }
-            //    });
+            Looper.DoChecks();
         }
-       
+        
         private static void LoadValuesFromIniFile()
         {
             // string path = "Plugins\\RecovFR.ini";
