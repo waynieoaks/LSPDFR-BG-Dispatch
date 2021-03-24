@@ -21,6 +21,7 @@ BGDispatch provides similar functionality to some other great audio mods, such a
 - Recognise when in a pursuit (LSPDFR) and hold background radio audio
 - Recognise when talking to dispactch (GrammarPolice) and hold background radio audio
 - Recognise when "Signal-100" initiated (Immersive Dispatch) and hold background radio audio
+- Recognise "Priority Radio Traffic" from Riches Police Enhancements and hold background radio audio
 
 ## Version history:
 0.1.0.0 (Pre release)
